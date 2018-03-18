@@ -13,6 +13,7 @@
 		B3FEE214205DEB4C00FC7B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FEE213205DEB4C00FC7B3E /* Assets.xcassets */; };
 		B3FEE217205DEB4C00FC7B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FEE215205DEB4C00FC7B3E /* LaunchScreen.storyboard */; };
 		B3FEE21A205DEB4C00FC7B3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FEE219205DEB4C00FC7B3E /* main.m */; };
+		B3FEE222205DEC9500FC7B3E /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FEE221205DEC9500FC7B3E /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B3FEE216205DEB4C00FC7B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3FEE218205DEB4C00FC7B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3FEE219205DEB4C00FC7B3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3FEE220205DEC9500FC7B3E /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		B3FEE221205DEC9500FC7B3E /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				B3FEE215205DEB4C00FC7B3E /* LaunchScreen.storyboard */,
 				B3FEE218205DEB4C00FC7B3E /* Info.plist */,
 				B3FEE219205DEB4C00FC7B3E /* main.m */,
+				B3FEE220205DEC9500FC7B3E /* Cat.h */,
+				B3FEE221205DEC9500FC7B3E /* Cat.m */,
 			);
 			path = sun;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3FEE222205DEC9500FC7B3E /* Cat.m in Sources */,
 				B3FEE20F205DEB4C00FC7B3E /* ViewController.m in Sources */,
 				B3FEE21A205DEB4C00FC7B3E /* main.m in Sources */,
 				B3FEE20C205DEB4C00FC7B3E /* AppDelegate.m in Sources */,
